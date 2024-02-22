@@ -1,0 +1,64 @@
+header{
+    padding: 15px;
+    background-color: blueviolet;
+    margin-bottom: 5 px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: #310D56 2px 3px 3px 3px;
+}
+.logo {
+    width: 17%;
+    height: auto; 
+    margin-right: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav .navLinks{
+    background-color: blueviolet;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+nav li{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #ffffffff;
+    background-color:blueviolet ;
+}
+nav li:hover{
+    color: #310D56;
+    border-bottom: 2px solid #310D56;
+}
+@media (max-width:768px){
+    .navLinks{
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        font-size: 2.5rem;
+        background-color: black;
+        transform: translateX(100%);
+        opacity: 0;
+        z-index: 1;
+        transition: all 1s;
+    }
+    .menu-burger-container.active ~ .navLinks{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    header a{
+        margin-top: 0px;
+    }
+}
+
+
+
+
+
