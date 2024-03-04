@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-body{
+html, body{
     max-width: 100%;
     overflow-x: hidden;
     background-color: #310D56;

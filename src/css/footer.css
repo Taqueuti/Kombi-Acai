@@ -36,7 +36,7 @@ footer {
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
-} 
+}
 
 #footer_social_media .footer-link {
     display: flex;
@@ -50,7 +50,7 @@ footer {
 }
 
 #footer_social_media .footer-link i {
-    font-size: 1.25rem;    
+    font-size: 1.25rem;
 }
 
 #footer_social_media .footer-link:hover {
@@ -144,5 +144,26 @@ footer {
     #footer_content {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
+    }
+
+  
+     #footer_contacts h1 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-link {
+        font-size: 0.7rem;
+        /* Reduz o tamanho da fonte dos links */
+    }
+
+    #footer_subscribe p {
+        font-size: 0.5rem;
+        /* Reduz o tamanho da fonte do texto */
+    }
+
+    #footer_social_media .footer-link i {
+        font-size: 0.9rem;
+        /* Reduz o tamanho dos ícones */
     }
 }

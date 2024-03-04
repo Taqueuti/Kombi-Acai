@@ -31,7 +31,7 @@ main {
 
 .info img {
     border-radius: 30px;
-    width: 50vw;
+    width: 90vh;
     height: 50vh;
 }
 
@@ -88,9 +88,14 @@ main {
         transform: scale(1.1); 
     }
 }
-@media (max-width:768px) {
+@media (max-width:1000px) {
     .img {
         width: 100%;
+    }
+
+    .info img {
+        width: 100%;
+        
     }
 
     .info {
@@ -100,6 +105,12 @@ main {
     .products {
         flex-direction: row;
         align-items: flex-start;
+    }
+}
+
+@media (max-width:380px) {
+    .whatsapp-icon{
+        right: auto;
     }
 
 }
