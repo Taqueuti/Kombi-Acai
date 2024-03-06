@@ -3,11 +3,10 @@ main {
     justify-content: center;
 }
 
-.img {
-    width: 100rem;
-    height: 35rem;
-}
 
+.img {
+    width: 100%;
+}
 .info {
     display: flex;
     gap: 10px;
@@ -36,7 +35,6 @@ main {
 }
 
 .container-products {
-    /* From https://css.glass */
     background-color: rgba(255, 255, 255, 0.7);;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -95,7 +93,6 @@ main {
 
     .info img {
         width: 100%;
-        
     }
 
     .info {
@@ -108,7 +105,7 @@ main {
     }
 }
 
-@media (max-width:380px) {
+@media (max-width:480px) {
     .whatsapp-icon{
         right: auto;
     }
