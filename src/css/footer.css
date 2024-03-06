@@ -143,7 +143,7 @@ footer {
 @media screen and (max-width: 426px) {
     #footer_content {
         grid-template-columns: repeat(1, 1fr);
-        padding: 3rem 2rem;
+        padding: 5rem 3rem;
     }
  
      #footer_contacts h1 {
